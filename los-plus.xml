@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- AOSP -->
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" />
+
+  <!-- LineageOS -->
+  <remove-project name="LineageOS/android_vendor_lineage" />
+  <project path="vendor/lineage" name="Atiga-Stuff/vendor_lineage" />
+</manifest>
