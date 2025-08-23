@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- AOSP -->
+  <remove-project name="platform/frameworks/libs/systemui" />
+  <project path="frameworks/libs/systemui" name="Atiga-Stuff/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" />
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
