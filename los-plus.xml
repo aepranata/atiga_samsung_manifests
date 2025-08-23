@@ -3,6 +3,8 @@
   <!-- AOSP -->
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" />
+  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/Trebuchet" name="Atiga-Stuff/packages_apps_Trebuchet" groups="pdk-fs" />
   <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
   <project path="packages/inputmethods/LatinIME" name="Atiga-Stuff/packages_inputmethods_LatinIME" groups="pdk-fs" />
 
