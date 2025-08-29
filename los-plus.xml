@@ -19,6 +19,8 @@
   <project path="lineage-sdk" name="Atiga-Stuff/lineage-sdk" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/LineageParts" name="Atiga-Stuff/packages_apps_LineageParts" />
+  <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="Atiga-Stuff/packages_apps_Updater" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="Atiga-Stuff/vendor_lineage" />
 </manifest>
