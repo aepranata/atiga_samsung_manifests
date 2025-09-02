@@ -5,6 +5,8 @@
   <project path="frameworks/base" name="Atiga-Stuff/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="Atiga-Stuff/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project name="LineageOS/android_kernel_configs" />
+  <project path="kernel/configs" name="Atiga-Stuff/kernel_configs" groups="vts,pdk" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" />
   <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
