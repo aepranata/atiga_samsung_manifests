@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/samsung_slsi/sepolicy" name="LineageOS/android_device_samsung_slsi_sepolicy" />
+
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
   <project path="hardware/samsung_slsi/libbt" name="LineageOS/android_hardware_samsung_slsi_libbt" />
   <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"  name="LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" />
