@@ -13,7 +13,7 @@
 
   <project path="kernel/samsung/universal7904" name="aepranata/atiga_kernel_samsung_universal7904" remote="atiga-hub" />
 
-  <project path="packages/apps/Genera" name="aepranata/packages_apps_Genera" 
+  <project path="packages/apps/Genera" name="Atiga-Stuff/packages_apps_Genera"  remote="atiga-hub" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="atiga-lab" clone-depth="1" />
 
