@@ -17,6 +17,7 @@
 
   <project path="prebuilts/clang/host/linux-x86/clang-atiga" name="aepranata/atiga-clang" remote="atiga-lab" clone-depth="1" />
 
+  <project path="vendor/atiga/extra" name="Atiga-Stuff/vendor_atiga_extra" remote="atiga-hub" />
   <project path="vendor/lineage-priv" name="Atiga-Stuff/vendor_atiga-priv" remote="atiga-hub" />
   <project path="vendor/samsung/" name="aepranata/atiga_vendor_samsung" remote="atiga-hub" />
 </manifest>
