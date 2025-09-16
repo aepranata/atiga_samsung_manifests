@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- AOSP -->
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="Atiga-Stuff/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project name="platform/frameworks/libs/systemui" />
-  <project path="frameworks/libs/systemui" name="Atiga-Stuff/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" />
-  <remove-project name="LineageOS/android_kernel_configs" />
-  <project path="kernel/configs" name="Atiga-Stuff/kernel_configs" groups="vts,pdk" />
-  <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" />
-  <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
-  <project path="packages/apps/ThemePicker" name="Atiga-Stuff/packages_apps_ThemePicker" groups="pdk-fs" />
-  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/Trebuchet" name="Atiga-Stuff/packages_apps_Trebuchet" groups="pdk-fs" />
-  <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="Atiga-Stuff/packages_inputmethods_LatinIME" groups="pdk-fs" />
+    <!-- AOSP -->
+    <remove-project name="LineageOS/android_frameworks_base" />
+    <project path="frameworks/base" name="Atiga-Stuff/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+    <remove-project name="platform/frameworks/libs/systemui" />
+    <project path="frameworks/libs/systemui" name="Atiga-Stuff/frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs" />
+    <remove-project name="LineageOS/android_kernel_configs" />
+    <project path="kernel/configs" name="Atiga-Stuff/kernel_configs" groups="vts,pdk" />
+    <remove-project name="LineageOS/android_packages_apps_Settings" />
+    <project path="packages/apps/Settings" name="Atiga-Stuff/packages_apps_Settings" groups="pdk-fs" />
+    <remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+    <project path="packages/apps/ThemePicker" name="Atiga-Stuff/packages_apps_ThemePicker" groups="pdk-fs" />
+    <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
+    <project path="packages/apps/Trebuchet" name="Atiga-Stuff/packages_apps_Trebuchet" groups="pdk-fs" />
+    <remove-project name="LineageOS/android_packages_inputmethods_LatinIME" />
+    <project path="packages/inputmethods/LatinIME" name="Atiga-Stuff/packages_inputmethods_LatinIME" groups="pdk-fs" />
 
-  <!-- LineageOS -->
-  <remove-project name="LineageOS/android_lineage-sdk" />
-  <project path="lineage-sdk" name="Atiga-Stuff/lineage-sdk" />
-  <remove-project name="LineageOS/android_packages_apps_LineageParts" />
-  <project path="packages/apps/LineageParts" name="Atiga-Stuff/packages_apps_LineageParts" />
-  <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
-  <project path="packages/apps/Updater" name="Atiga-Stuff/packages_apps_Updater" />
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="Atiga-Stuff/vendor_lineage" />
+    <!-- LineageOS -->
+    <remove-project name="LineageOS/android_lineage-sdk" />
+    <project path="lineage-sdk" name="Atiga-Stuff/lineage-sdk" />
+    <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+    <project path="packages/apps/LineageParts" name="Atiga-Stuff/packages_apps_LineageParts" />
+    <remove-project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
+    <project path="packages/apps/Updater" name="Atiga-Stuff/packages_apps_Updater" />
+    <remove-project name="LineageOS/android_vendor_lineage" />
+    <project path="vendor/lineage" name="Atiga-Stuff/vendor_lineage" />
 </manifest>
