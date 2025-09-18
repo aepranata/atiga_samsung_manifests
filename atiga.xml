@@ -10,8 +10,10 @@
 
     <project path="device/samsung/m20lte" name="aepranata/atiga_device_samsung_m20lte" remote="atiga-hub" />
     <project path="device/samsung/universal7904-common" name="aepranata/atiga_device_samsung_universal7904-common" remote="atiga-hub" />
+    <project path="device/xiaomi/rosy" name="aepranata/device_xiaomi_rosy" remote="atiga-hub" revision="12.1" />
 
     <project path="kernel/samsung/universal7904" name="aepranata/atiga_kernel_samsung_universal7904" remote="atiga-hub" />
+    <project path="kernel/xiaomi/rosy" name="aepranata/kernel_xiaomi_rosy" remote="atiga-hub" revision="12.1" />
 
     <project path="packages/apps/Genera" name="Atiga-Stuff/packages_apps_Genera"  remote="atiga-hub" />
 
@@ -20,4 +22,5 @@
     <project path="vendor/atiga/extra" name="Atiga-Stuff/vendor_atiga_extra" remote="atiga-hub" />
     <project path="vendor/lineage-priv" name="Atiga-Stuff/vendor_atiga-priv" remote="atiga-hub" />
     <project path="vendor/samsung/" name="aepranata/atiga_vendor_samsung" remote="atiga-hub" />
+    <project path="vendor/xiaomi/rosy/" name="aepranata/vendor_xiaomi_rosy" remote="atiga-hub" revision="12.1" />
 </manifest>
